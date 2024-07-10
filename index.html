@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>alarm clock</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        <center>CN Frontend Skill Test 1</center>
+        <h1>
+            <h2>
+                <center>ALARM CLOCK</center>
+            </h2>
+
+            <div id="container"> <!--  create parent container for alarm -->
+
+                <div id="current_time"> <!-- to display current time -->
+                </div>
+
+                <div class="alarm"> <!--  create a container for setting alarm -->
+                    <label for="inp" id="lb"></label>
+                    <input type="time" id="inp" class="inp">
+                    <button type="submit" id="setalarm">Set Alarm</button>
+                    <ul id="ul" type="none">
+                    </ul>
+                </div>
+
+            </div>
+
+            <script src="alarm.js" async defer></script>
+</body>
+
+</html>

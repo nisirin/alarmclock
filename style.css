@@ -1,0 +1,57 @@
+h2 {
+    color: rgb(87, 13, 50);
+}
+
+#container {
+    height: 80%;
+    width: 40%;
+    border: 1px solid rgba(25, 2, 2, 0.708);
+    border-radius: 5%;
+    display: flex;
+    position: relative;
+    left: 32%;
+    background-color: rgba(0, 255, 255, 0.514);
+    background-image: linear-gradient(rgb(235, 52, 189), rgba(52, 17, 132, 0.589))
+}
+
+#current_time {
+    width: 75%;
+    height: 10%;
+    color: white;
+    position: absolute;
+    left: 23%;
+    top: 2%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#current_time:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.0, 1.0);
+    color: rgb(3, 3, 50);
+}
+
+.alarm {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 80%;
+}
+
+#setalarm {
+    background-color: blueviolet;
+    color: white;
+}
+
+#ul li{
+    color: white;
+    font-size: 20px;
+}
+
+#del{
+    background-color: blueviolet;
+    color: white;
+}
+
